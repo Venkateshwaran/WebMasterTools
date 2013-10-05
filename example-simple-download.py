@@ -25,11 +25,11 @@ See wiki document on its use.
 from downloader import Downloader
 
 # Email address and password used to sign-in to Webmaster Tools
-email = ''
-password = ''
+email = 'mymail@gmail.com'
+password = 'mypassword'
 # Specify the website and the type of data to download
 website = 'http://www.example.com/'
-selected_downloads = ['TOP_QUERIES']
+selected_downloads = ['TOP_QUERIES','TOP_PAGES','CONTENT_KEYWORDS']
 
 # Instantiate the downloader object
 downloader = Downloader()
